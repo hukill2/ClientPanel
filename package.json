@@ -2,7 +2,7 @@
   "name": "clientpanel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hukill2.github.io/ClientPanel",
+  "homepage": "https://hukill2.github.io/clientpanel",
   "dependencies": {
     "classnames": "^2.2.6",
     "firebase": "^5.8.0",
