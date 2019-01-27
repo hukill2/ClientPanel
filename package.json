@@ -2,9 +2,11 @@
   "name": "clientpanel",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hukill2.github.io/ClientPanel",
   "dependencies": {
     "classnames": "^2.2.6",
     "firebase": "^5.8.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^5.0.7",
@@ -15,6 +17,7 @@
     "redux-firestore": "^0.6.3"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
