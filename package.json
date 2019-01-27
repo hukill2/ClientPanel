@@ -8,6 +8,7 @@
     "firebase": "^5.8.0",
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
+    "react-app-polyfill": "^0.2.0",
     "react-dom": "^16.7.0",
     "react-redux": "^5.0.7",
     "react-redux-firebase": "^2.2.6",
