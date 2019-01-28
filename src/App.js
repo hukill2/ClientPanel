@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { UserIsAuthenticated, UserIsNotAuthenticated } from "./helpers/auth";
 
 import { Provider } from "react-redux";
