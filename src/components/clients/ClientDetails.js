@@ -8,6 +8,11 @@ import Spinner from "../layout/Spinner";
 import classnames from "classnames";
 
 class ClientDetails extends Component {
+  state = {
+    showBalanceUpdate: false,
+    balanceUpdateAmount: ""
+  };
+
   render() {
     const { client } = this.props;
 
@@ -48,7 +53,7 @@ class ClientDetails extends Component {
                     <span
                       className={classnames({
                         "text-danger": client.balance > 0,
-                        "text-success": client.ballance === 0
+                        "text-success": client.balance < 0.01
                       })}
                     >
                       ${parseFloat(client.balance).toFixed(2)}
