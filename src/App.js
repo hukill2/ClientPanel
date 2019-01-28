@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 import AddClient from "./components/clients/AddClient";
 import EditClient from "./components/clients/EditClient";
+import Login from "./components/auth/Login";
 import AppNavbar from "./components/layout/AppNavbar";
 import Dashboard from "./components/layout/Dashboard";
 import ClientDetails from "./components/clients/ClientDetails";
@@ -22,6 +23,7 @@ class App extends Component {
                 <Route exact path="/client/add" component={AddClient} />
                 <Route exact path="/client/edit/:id" component={EditClient} />
                 <Route exact path="/client/:id" component={ClientDetails} />
+                <Route exact path="/login" component={Login} />
               </Switch>
             </div>
           </div>
